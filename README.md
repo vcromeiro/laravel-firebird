@@ -35,7 +35,7 @@ driver:
 ```
 
 ## Credits
-This package was originally forked from [acquestvanzuydam/laravel-firebird](https://github.com/jacquestvanzuydam/laravel-firebird) with enhancements from [sim1984/laravel-firebird](https://github.com/sim1984/laravel-firebird).
+This package was originally forked from [acquestvanzuydam/laravel-firebird](https://github.com/jacquestvanzuydam/laravel-firebird) with enhancements from [sim1984/laravel-firebird](https://github.com/sim1984/laravel-firebird) and [harrygulliford/laravel-firebird](https://github.com/harrygulliford/laravel-firebird).
 
 ## License
 Licensed under the [MIT](https://choosealicense.com/licenses/mit/) licence.
