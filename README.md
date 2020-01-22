@@ -11,7 +11,7 @@ This package adds support for the Firebird PDO driver in Laravel applications. S
 You can install the package via composer:
 
 ```json
-composer require harrygulliford/laravel-firebird
+composer require vcromeiro/laravel-firebird
 ```
 
 _The package will automatically register itself._
