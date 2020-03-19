@@ -144,16 +144,16 @@ class FirebirdGrammar extends Grammar
      */
     protected function whereIn(Builder $query, $where)
     {
-        if (! empty($where['values'])) {
-            // Work-around for the firebird where-in limit of 1500
-            if (count($where['values']) > 1500) {
-                return $this->slicedWhereIn($query, $where, 1500);
-            }
-
-            return $this->wrap($where['column']).' in ('.$this->parameterize($where['values']).')';
+        if (empty($where['values'])) {
+            return '0 = 1';
         }
 
-        return '0 = 1';
+        // Work-around for the firebird where-in limit of 1500 values.
+        if (count($where['values']) > 1500) {
+            return $this->slicedWhereIn($query, $where, 1500);
+        }
+
+        return $this->wrap($where['column']).' in ('.$this->parameterize($where['values']).')';
     }
 
     /**
