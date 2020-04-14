@@ -4,7 +4,7 @@
 [![Total Downloads](https://poser.pugx.org/vcromeiro/laravel-firebird/downloads)](https://packagist.org/packages/vcromeiro/laravel-firebird)
 [![License](https://poser.pugx.org/vcromeiro/laravel-firebird/license)](https://packagist.org/packages/vcromeiro/laravel-firebird)
 
-This package adds support for the Firebird PDO driver in Laravel applications. Support for Laravel 5.5+ (including 6.x) with PHP 7.1+ and Firebird 2.5
+This package adds support for the Firebird PDO driver in Laravel applications. Support for Laravel 5.5+ (including 6 & 7) with PHP 7.1+ and Firebird 2.5
 
 ## Installation
 
