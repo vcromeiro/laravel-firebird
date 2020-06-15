@@ -34,6 +34,9 @@ driver:
 ],
 ```
 
+To register this package in Lumen, you'll also need to add the following line to the service providers in your `config/app.php` file:
+`$app->register(\Firebird\FirebirdServiceProvider::class);`
+
 ## Credits
 This package was originally forked from [acquestvanzuydam/laravel-firebird](https://github.com/jacquestvanzuydam/laravel-firebird) with enhancements from [sim1984/laravel-firebird](https://github.com/sim1984/laravel-firebird) and [harrygulliford/laravel-firebird](https://github.com/harrygulliford/laravel-firebird).
 
